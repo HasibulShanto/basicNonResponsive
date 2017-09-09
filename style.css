@@ -1,0 +1,250 @@
+/*-- Author :Hasibul Hasan Shanto
+	September 10,2017 ; 2:00; Am .
+	Email:kajal.shanto@gmail.com; 
+ 
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*Header area start*/
+ #header{
+ 	background: url(header.jpg);
+ 	height: 110vh;
+ 	width: 100%;
+ 	background-size: cover;
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+ }
+.header_logo .logo h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.slider_top h2{
+	font-size: 40px;
+	font-weight: 400;
+	color: #fff; 
+	padding-top: 20%;
+	padding-bottom: 7%;
+}
+.slider_top span{ 
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+.slider_single h3{
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+}
+.slider_single i{
+	color: #fff;
+}
+ .slider_single i:hover{
+ 	color: #F26A21;
+ 	-webkit-transition: all ease .3s;
+ 	-o-transition: all ease .3s;
+ 	transition: all ease .3s;
+ }
+ /*Header area end*/
+
+
+ /*Second section start*/
+ #second{
+ 	color: #666666;
+ 	background: #fff;
+ }
+ .second_content{
+ 	padding-top: 70px;
+ }
+ .sec_top h2{
+ 	font-size: 30px;
+ 	font-weight: 400;
+ 	padding-bottom: 30px;
+ }
+ .sec_down p{
+ 	font-size: 18px;
+ 	font-weight: 400;
+ }
+ #image{
+ 	padding-top: 70px;
+ }
+  /*Second section end*/
+
+
+  /*about section start*/
+#about{
+	background: #F5F5F5;
+	color: #666666;
+	padding: 70px 0;
+}
+.about_content h2{
+	font-weight: 500;
+}
+.about_content p{
+	font-weight: 400;
+}
+
+  /*about section end*/
+
+
+  /*portfolio section start*/
+ #portfolio{}
+.portfolio_images{
+	overflow: hidden;
+}
+.single_image{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.col_md_5{
+	width: 20%; 
+	float: left;
+}
+ 
+ .about-overlay{
+	position: absolute;
+	background: rgba(34,147,240, .8);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s;
+}
+
+.single_image:hover .about-overlay{
+	top: 0;
+}
+.about-icon2-overlay{
+	position: absolute;
+	left: 20%;
+	bottom: -100%;
+	-webkit-transition: all ease .7s;
+	-o-transition: all ease .7s;
+	transition: all ease .7s;
+}
+.about-icon2-overlay h3{
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.single_image:hover .about-icon2-overlay{
+	bottom: 40%;
+}
+
+.about-icon2-overlay .btn:hover {
+	background: #222323 !important;
+	color:#fff !important;
+}
+.about-icon2-overlay .btn i{color:#fff !important;}
+.btn{
+	background: transparent; 
+	border: 1px solid #fff; 
+	padding: 10px 20px;
+	margin-right: 3px;
+}
+ /*portfolio section end*/
+
+
+  /*client section start*/
+#client{
+	background: #F5F5F5;
+	padding: 50px 0;
+}
+
+.client_images img{
+	width: 100%;
+	height: 50px;
+	margin: 30px 0;
+}
+  /*client section end*/
+
+
+  /*information section start*/
+#information{
+	background: url(sep.jpg);
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center; 
+	background-repeat: no-repeat;
+	padding: 120px 0;
+	color: #fff;
+}
+.info_content h2{
+	font-size: 40px;
+	font-weight: 300;
+}
+.info_content p{
+	font-size: 26px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+.info_content button{
+	color: #fff;
+	background: transparent;
+	border-radius: 25px;
+	text-transform: uppercase;
+	padding:10px 20px;
+	border: 2px solid #fff;
+}
+.info_content button:hover{
+	border: 2px solid #fff;
+}
+  /*information section start*/
+
+
+ /* footer section start*/
+
+ #footer_section{
+ 	background: #22A7F0;
+ 	padding: 20px 0;
+ }
+ .single_icon{
+ 	display: inline-block;
+ 	margin-right: 5px;
+ 	color: #fff;
+ 	padding: 8px;
+ 	font-size: 30px;
+ }
+ .single_icon:hover{
+ 	color: #F26A21;
+ 	-webkit-transition: all ease .3s;
+ 	-o-transition: all ease .3s;
+ 	transition: all ease .3s;
+ }
+
+  /* footer section end*/
+
+
+/*
+==========================
+  	Media query Srart
+==========================
+*/
+
+/*small phones*/
+@media (max-width: 767px){}
+
+/*Tablets and ipads*/
+@media only (min-width : 768px) and (max-width: 1023px){
+}
+
+/*Destops*/
+@media (min-width: 1024px){
+
+  
+}
